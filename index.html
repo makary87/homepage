@@ -19,17 +19,24 @@
 
 </head>
 <body>
+    <headrer>
+        <nav>
+            <a href="index.html">Stona glowna</a>
+            <a href="nauka-html.html">Nauka HTML</a>
+        </nav>
+    </headrer>
     <main>
-        <header>
+        <header id="top">
             <h1>Nagłówek strony</h1>
         </header>
         <section>
-            <h2>Sekcja 1 - naglowek H2</h2>
-            <p>Sekcja 1 - tekst sekcji</p>
+            <h2>Sekcja 1 - naglowek H2 ze zdjęciem</h2>
+            <p>Sekcja 1 - tekst sekcji i zdjęcie poniżej</p>
+            <img src="example.png" alt="Example - zdjecie"/>
         </section>
         <section>
             <h2>Sekcja 2 - naglowek H2</h2>
-            <article>
+            <article id="sekcja-2">
                 <h3>Sekcja 2 - artykuł 1 - nagłowek H3</h3>
                 <p>Sekcja 2 - tekst artykułu 1</p>
             </article>
@@ -39,12 +46,25 @@
             </article>
             <article>
                 <h3>Sekcja 4 - artykuł 3 - nagłowek H3</h3>
-                <p>Git commit - treść dotycząca GITa</p>
+                <p>Git commit<br>treść dotycząca GITa w nowej linii</p>
+            </article>
+            <article>
+                <h3>Sekcja 5 - artykuł 4 - modul 3 lekcja 4</h3>
+                <h4>Atrybuty w HTML:</h4>
+                <p>
+                    <b>znacznik b</b> 
+                    <i>znacznik i</i> 
+                    <em>znacznik em</em> 
+                    <strong>znacznik strong</strong> 
+                    <u>znacznik u</u>
+                </p>
+                <p>Link do szkolenia <a href="https://cotenfrontend.pl/" target="_blank">WTF</a></p>
+                <p>Link do <a href="#sekcja-2">Sekcja 2</a></p>
             </article>
         </section>
-        <footer>
-            <p>Stopka</p>
-        </footer>
     </main>
+    <footer>
+        <p>Stopka <a href="#top">Poczatek strony</a></p>
+    </footer>
  </body>
 </html>
