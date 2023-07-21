@@ -11,3 +11,28 @@ section {
 body {
     background: #cecece;
 }
+
+.zielony {
+    color: green;
+}
+
+#paragraf_2 {
+    color: yellow;
+}
+
+p {
+    color: red !important
+
+}
+
+a {
+    color: orange
+}
+
+section a {
+    color: blue
+}
+
+.articleClass p {
+    background-color: aqua;
+}
