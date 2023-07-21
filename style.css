@@ -20,19 +20,30 @@ body {
     color: yellow;
 }
 
-p {
+/* p {
     color: red !important
-
-}
+} */
 
 a {
     color: orange
 }
 
-section a {
+/* section a {
     color: blue
-}
+} */
 
 .articleClass p {
     background-color: aqua;
+}
+
+.my-article {
+    color: darkmagenta
+}
+
+.about {
+    color: darkred
+}
+
+a {
+    color: inherit
 }
