@@ -1,5 +1,15 @@
+
+/* Modul 4 lekcja 8 - dodatkowe style do normalize.css */
+html { 
+    box-sizing: border-box; 
+}
+*, *:before, *:after { 
+    box-sizing: inherit 
+}
+
 h1 {
     color: green;
+    padding: 16px;
 }
 h2 {
     color: #141007;
@@ -34,6 +44,7 @@ a {
 
 .articleClass p {
     background-color: aqua;
+    padding: 16px;
 }
 
 .my-article {
@@ -46,4 +57,16 @@ a {
 
 a {
     color: inherit
+}
+
+section {
+    padding: 16px;
+}
+
+footer {
+    padding: 16px;
+}
+
+header {
+    padding: 16px;
 }
