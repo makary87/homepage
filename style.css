@@ -70,3 +70,23 @@ footer {
 header {
     padding: 16px;
 }
+
+.navigation {
+    background-color: blue;
+}
+
+.navigation__link {
+    color: white
+}
+
+.section {
+    background: green;
+}
+
+.section__header {
+    color: blue
+}
+
+.section__header--special {
+    color: greenyellow
+}
