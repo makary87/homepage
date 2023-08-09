@@ -106,6 +106,10 @@ main {
     margin: 0 auto;
 }
 
+.modul-5-lekcja-2 {
+    background: yellowgreen;
+}
+
 .typografia-span {
     color: white;
 }
@@ -124,4 +128,17 @@ main {
 
 .typografia-letter-spacing {
     letter-spacing: 20px
+}
+
+.modul-5-lekcja-3 {
+    background: limegreen;
+    font-size: 10px;
+}
+
+.typografia-em {
+    font-size: 2em;
+}
+
+.typografia-rem {
+    font-size: 2rem;
 }
