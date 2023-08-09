@@ -105,3 +105,23 @@ main {
     max-width: 764px;
     margin: 0 auto;
 }
+
+.typografia-span {
+    color: white;
+}
+
+.typografia-font-size {
+    font-size: 40px;
+}
+
+.typografia-font-weight {
+    font-weight: 900;
+}
+
+.typografia-line-height {
+    line-height: 10
+}
+
+.typografia-letter-spacing {
+    letter-spacing: 20px
+}
