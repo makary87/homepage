@@ -87,6 +87,21 @@ header {
     color: blue
 }
 
+.section__image {
+    max-width: 100%;
+    display: block;
+}
+
 .section__header--special {
     color: greenyellow
+}
+
+.header {
+    position: sticky;
+    top: 0;
+}
+
+main {
+    max-width: 764px;
+    margin: 0 auto;
 }

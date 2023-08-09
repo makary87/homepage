@@ -14,3 +14,14 @@ console.log(header)
 
 console.log(header.style)
 header.style.color = 'blue'; // do modyfikacji CSS za pomoca JS
+
+// Modul 4 - praca domowa
+const divElement = document.querySelector('.section__div--js')
+divElement.innerHTML = 'Modul 4 - praca domowa';
+divElement.style.color = 'orange';
+divElement.style.border = 'solid'
+divElement.style.borderColor = 'red'
+divElement.style.background = 'black';
+divElement.style.height = '200px';
+divElement.style.fontSize = '40px';
+divElement.style.padding = '50px';
