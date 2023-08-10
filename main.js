@@ -39,3 +39,19 @@ console.log('Wynik mnozenia 3 * 6: ' + arrowSkladnia(3,6));
 
 const arrowSkladniaSkrocona = parametr => (parametr*parametr);
 console.log('Wynik mnozenia 3 * 3: ' + arrowSkladniaSkrocona(3));
+
+// Modul 5 lekcja 7 (obiekty)
+const nazwaObiektu = {
+    nazwaProperty1: 'wartoscProperty1',
+    nazwaProperty2: 'wartoscProperty2',
+    propertyJakoFunkcja: (parametr) => (console.log('Wywolano funkcje z obiektu z paramerem: ' + parametr)),
+    propertyJakoObiekt: {
+        nazwaProperty1: 'wartoscProperty1',
+        nazwaProperty2: 'wartoscProperty2',
+    }
+}
+
+console.log('Pobranie property za pomoca dod notation: ' + nazwaObiektu.nazwaProperty1)
+console.log('Pobranie property za pomoca [ ] notation: ' + nazwaObiektu['nazwaProperty2'])
+console.log('Wywolanie funkcji property: ')
+nazwaObiektu.propertyJakoFunkcja('przykladowyParamer')
