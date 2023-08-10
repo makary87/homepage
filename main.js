@@ -25,3 +25,17 @@ divElement.style.background = 'black';
 divElement.style.height = '200px';
 divElement.style.fontSize = '40px';
 divElement.style.padding = '50px';
+
+// Modul 5 lekcja 6 (funkcje)
+function tradycyjnaSkladnia(parametr1, parametr2) {
+    return parametr1 * parametr2;
+} 
+console.log('Wynik mnozenia 2 * 6: ' + tradycyjnaSkladnia(2,6));
+
+const arrowSkladnia = (parametr1, parametr2) => {
+    return parametr1 * parametr2 
+}
+console.log('Wynik mnozenia 3 * 6: ' + arrowSkladnia(3,6));
+
+const arrowSkladniaSkrocona = parametr => (parametr*parametr);
+console.log('Wynik mnozenia 3 * 3: ' + arrowSkladniaSkrocona(3));
