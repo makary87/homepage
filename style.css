@@ -142,3 +142,16 @@ main {
 .typografia-rem {
     font-size: 2rem;
 }
+
+.modul-5-lekcja-5__unordered-list {
+    list-style-type: circle
+}
+
+.modul-5-lekcja-5__ordered-list {
+    list-style-type: decimal-leading-zero
+}
+
+.modul-5-lekcja-5__table {
+    width: 100%;
+    text-align: left;
+}
