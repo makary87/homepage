@@ -155,3 +155,21 @@ main {
     width: 100%;
     text-align: left;
 }
+.modul-5-lekcja-9__flexbox {
+    border: 1px solid #efc944;
+    display: flex;
+    flex-direction: row;
+    //flex-direction: column;
+    flex-wrap: wrap;
+    //height: 200px;
+    width: 50px
+}
+.modul-5-lekcja-9__flexbox-item {
+    background: #1c152a;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 1rem;
+    padding: 1rem;
+    //width: 300px;
+    //height: 200px;
+}

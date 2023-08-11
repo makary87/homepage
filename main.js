@@ -55,3 +55,4 @@ console.log('Pobranie property za pomoca dod notation: ' + nazwaObiektu.nazwaPro
 console.log('Pobranie property za pomoca [ ] notation: ' + nazwaObiektu['nazwaProperty2'])
 console.log('Wywolanie funkcji property: ')
 nazwaObiektu.propertyJakoFunkcja('przykladowyParamer')
+``
