@@ -244,3 +244,20 @@ main {
     flex-grow: 0;
     flex-shrink: 1;
 } */
+
+.modul-5-lekcja-12 {
+    background: #09070C;
+    color: lime;
+    /* min-height: 100vh; */
+    height: 300px;
+    font-size: 2rem;
+    padding: 2rem;
+    overflow: scroll;
+    background-image: url('/wtf/dev/homepage/example.png');
+    background-position: center;
+    background-position: 0 0;
+    background-attachment: fixed;
+    background-repeat: round;
+    background-clip: content-box;
+    background-color: rgba(0,0,0,0.5);
+}
