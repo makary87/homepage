@@ -211,3 +211,36 @@ main {
     align-self: flex-end; */
     align-self: center;
 }
+
+.modul-5-lekcja-11__flexbox {
+    border: 1px solid #efc944;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 2rem
+}
+
+
+.modul-5-lekcja-11__flexbox-item {
+    background: #1c152a;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 1rem;
+    padding: 1rem;
+    order: 20;
+    /* flex-grow: 1; */
+    /* flex-grow: 0; */
+    /* width: 200px; */
+    /* flex-shrink: 3; */
+    /* flex-basis: 100px; */
+    flex: 1 0 100px;
+}    
+
+/* .modul-5-lekcja-11__flexbox-item--order {
+    order: 2
+} */
+
+/* .modul-5-lekcja-11__flexbox-item--grow {
+    flex-grow: 0;
+    flex-shrink: 1;
+} */
