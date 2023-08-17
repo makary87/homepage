@@ -268,3 +268,8 @@ main {
     background-image: linear-gradient(135deg, #020310 28%, #C850C0 56%, #FFCC70 78%);
 }
  
+.modul-5-parca-domowa {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
