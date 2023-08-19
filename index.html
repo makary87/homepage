@@ -225,84 +225,92 @@
                 <p>Treść paragrafu M13</p>
                 <p>Treść paragrafu M13</p>
         </section>
-        <section class="modul-6-lekcja-3">
-            <h2>Modul 6 lekcja 3</h2>
-            <form>
-                <p>
-                    <label for="firstName">Imie:</label>
-                    <input id="firstName" name="firstName" type="text" value="PrzykladoweImie" placeholder="Podaj imie" />
-                </p>
-                <p>
-                    <label for="lastName">Nazwisko:</label>
-                    <input id="lastName" name="lastName" type="text" placeholder="Podaj nazwisko" />
-                </p>
-            </form>
-        </section>
-        <section class="modul-6-lekcja-4">
-            <h2>Modul 6 lekcja 4</h2>
-            <form>
-                <p>
-                    <label for="age">Wiek:</label>
-                    <input id="age" name="age" type="number" value=100 placeholder="Podaj wiek" />
-                </p>
-                <p>
-                    <label for="phone">Telefon:</label>
-                    <input id="phone" name="phone" type="tel" placeholder="Podaj telefon" />
-                </p>
-                <p>
-                    <label for="email">Email:</label>
-                    <input id="email" name="email" type="email" placeholder="Podaj email" />
-                </p>
-                <fieldset>
-                    <legend>Opis &lt fieldset &gt - radio</legend>
+        <form action="https://forms.cotenfrontend.pl" method="post">
+            <section class="modul-6-lekcja-3">
+                <h2>Modul 6 lekcja 3</h2>
+                <!-- <form> -->
                     <p>
-                        <label><input checked name="nazwaGrupyRadio" id="red" type="radio" value="redRadio"/> kolor czerwony</label>
+                        <label for="firstName">Imie:</label>
+                        <input id="firstName" name="firstName" type="text" value="PrzykladoweImie" placeholder="Podaj imie" />
                     </p>
                     <p>
-                        <label><input name="nazwaGrupyRadio" id="blue" type="radio" value="blueRadio"/> kolor niebieski</label>
+                        <label for="lastName">Nazwisko:</label>
+                        <input id="lastName" name="lastName" type="text" placeholder="Podaj nazwisko" />
                     </p>
-                </fieldset>
-                <fieldset>
-                    <legend>Opis &lt fieldset &gt - checkbox</legend>
+                <!-- </form> -->
+            </section>
+            <section class="modul-6-lekcja-4">
+                <h2>Modul 6 lekcja 4</h2>
+                <!-- <form> -->
                     <p>
-                        <label><input checked name="nazwaGrupyCheckbx" id="red" type="checkbox" value="redCheckbox"/> kolor czerwony</label>
+                        <label for="age">Wiek:</label>
+                        <input id="age" name="age" type="number" value=100 placeholder="Podaj wiek" />
                     </p>
                     <p>
-                        <label><input checked name="nazwaGrupyCheckbx" id="blue" type="checkbox" value="blueCheckbox"/> kolor niebieski</label>
+                        <label for="phone">Telefon:</label>
+                        <input id="phone" name="phone" type="tel" placeholder="Podaj telefon" />
                     </p>
-                </fieldset>
-            </form>
-        </section>
-        <section class="modul-6-lekcja-5">
-            <h2>Modul 6 lekcja 5</h2>
-            <form>
+                    <p>
+                        <label for="email">Email:</label>
+                        <input id="email" name="email" type="email" placeholder="Podaj email" />
+                    </p>
+                    <fieldset>
+                        <legend>Opis &lt fieldset &gt - radio</legend>
+                        <p>
+                            <label><input checked name="nazwaGrupyRadio" id="red" type="radio" value="redRadio"/> kolor czerwony</label>
+                        </p>
+                        <p>
+                            <label><input name="nazwaGrupyRadio" id="blue" type="radio" value="blueRadio"/> kolor niebieski</label>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Opis &lt fieldset &gt - checkbox</legend>
+                        <p>
+                            <label><input checked name="nazwaGrupyCheckbx" id="red" type="checkbox" value="redCheckbox"/> kolor czerwony</label>
+                        </p>
+                        <p>
+                            <label><input checked name="nazwaGrupyCheckbx" id="blue" type="checkbox" value="blueCheckbox"/> kolor niebieski</label>
+                        </p>
+                    </fieldset>
+                <!-- </form> -->
+            </section>
+            <section class="modul-6-lekcja-5">
+                <h2>Modul 6 lekcja 5</h2>
+                <!-- <form> -->
+                    <p>
+                        <label for="favoriteNumber">Ulibiona liczba:</label>
+                        <input id="favoriteNumber" name="favoriteNumber" type="range" min="10" max="1000" step="10" />
+                    </p>
+                    <p>
+                        <label for="secret">Hasło:</label>
+                        <input id="secret" name="secret" type="password" placeholder="Podaj hasło" />
+                    </p>
+                    <p>
+                        <label for="fileName">Nazwa pliku:</label>
+                        <input id="fileName" name="fileName" type="file"/>
+                    </p>
+                    <p>
+                        <label for="size">Rozmiar:</label>
+                        <select id="size" name="size">
+                            <option value="s">S</option>
+                            <option value="m">M</option>
+                            <option selected value="l">L</option>
+                            <option value="xl">XL</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="comment">Komentarz:</label><br>
+                        <textarea id="comment" name="comment" cols=50>Tutaj przykładowy komentarz</textarea>
+                    </p>
+                <!-- </form> -->
+            </section>
+            <section class="modul-6-lekcja-6">
+                <h2>Modul 6 lekcja 6</h2>
                 <p>
-                    <label for="favoriteNumber">Ulibiona liczba:</label>
-                    <input id="favoriteNumber" name="favoriteNumber" type="range" min="10" max="1000" step="10" />
+                    <input type="submit" value="Wyślij modul 6 lekcja 6" />
                 </p>
-                <p>
-                    <label for="secret">Hasło:</label>
-                    <input id="secret" name="secret" type="password" placeholder="Podaj hasło" />
-                </p>
-                <p>
-                    <label for="fileName">Nazwa pliku:</label>
-                    <input id="fileName" name="fileName" type="file"/>
-                </p>
-                <p>
-                    <label for="size">Rozmiar:</label>
-                    <select id="size" name="size">
-                        <option value="s">S</option>
-                        <option value="m">M</option>
-                        <option selected value="l">L</option>
-                        <option value="xl">XL</option>
-                    </select>
-                </p>
-                <p>
-                    <label for="comment">Komentarz:</label><br>
-                    <textarea id="comment" name="comment" cols=50>Tutaj przykładowy komentarz</textarea>
-                </p>
-            </form>
-        </section>
+            </section>
+        </form>
     </main>
     <footer>
         <p>Stopka <a href="#top">Poczatek strony</a></p>
