@@ -332,3 +332,19 @@ main {
     grid-column-start: 1;
     grid-column-end: 3;
 }
+
+.modul-6-lekcja-11 {
+    background-color: green;
+}
+
+@media screen and (min-width: 321px) {
+    .modul-6-lekcja-11 {
+        background-color: blue;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .modul-6-lekcja-11 {
+        background-color: yellow;
+    }
+}
