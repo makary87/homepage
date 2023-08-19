@@ -273,3 +273,24 @@ main {
     justify-content: center;
     gap: 1rem;
 }
+
+.modul-6-lekcja-8 .grid {
+    display: grid;
+    /* grid-template-columns: 200px 400px 200px; */
+    /* grid-template-columns: 1fr 1fr 2fr;  */
+    /* grid-template-columns: 1fr 100px 2fr;  */
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: 1fr 1fr minmax(20px, 100px);
+    grid-template-rows: 200px 200px 300px;
+    column-gap: 24px;
+    row-gap: 10px;
+}
+
+.modul-6-lekcja-8 .grid__item {
+        background: #1C152A;
+        color: #fff;
+        border: 1px solid #fff;
+        border-radius: 1rem;
+        padding: 1rem;
+        flex: 0 1 50px;
+}
