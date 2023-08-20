@@ -403,7 +403,6 @@ main {
         position: static;
         display: flex;
     }
-
     .navigation__link {
         color: white
     }

@@ -82,9 +82,9 @@ button.classList.toggle('testowa')
 console.log(button.classList)
 console.log(button.classList.contains('testowa'))
 
-const hamburger = document.querySelector('.modul-6-lekcja-13__hamburger--js')
-console.log(hamburger)
-hamburger.addEventListener('click', () => {
-    const navigation = document.querySelector('.modul-6-lekcja-13__navigation--js')
-    navigation.classList.toggle('modul-6-lekcja-13__navigation--open')
-})
+// const hamburger = document.querySelector('.modul-6-lekcja-13__hamburger--js')
+// console.log(hamburger)
+// hamburger.addEventListener('click', () => {
+//     const navigation = document.querySelector('.modul-6-lekcja-13__navigation--js')
+//     navigation.classList.toggle('modul-6-lekcja-13__navigation--open')
+// })
