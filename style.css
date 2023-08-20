@@ -358,3 +358,56 @@ main {
     padding: 4px 8px;
     border-radius: 4px;
 }
+
+.modul-6-lekcja-13__header {
+    min-height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.modul-6-lekcja-13__navigation {
+    /* display: flex; */
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px
+    position: absolute;
+    top: 50px;
+    width: 100%;
+}
+
+.modul-6-lekcja-13__navigation--open {
+    display: flex;
+}
+
+.modul-6-lekcja-13__hamburger {
+    padding: 4px;
+    /* background: none; */
+    /* border: 0; */
+    /* font-size: 2rem; */
+}
+
+@media screen and (min-width: 769px) {
+    .navigation {
+        background-color: green;
+        /* padding: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 24px; */
+    }
+    .modul-6-lekcja-13__navigation {
+        flex-direction: row;
+        position: static;
+        display: flex;
+    }
+
+    .navigation__link {
+        color: white
+    }
+    .modul-6-lekcja-13__hamburger {
+        display: none;
+    }
+}
