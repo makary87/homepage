@@ -55,4 +55,16 @@ console.log('Pobranie property za pomoca dod notation: ' + nazwaObiektu.nazwaPro
 console.log('Pobranie property za pomoca [ ] notation: ' + nazwaObiektu['nazwaProperty2'])
 console.log('Wywolanie funkcji property: ')
 nazwaObiektu.propertyJakoFunkcja('przykladowyParamer')
-``
+
+// Modul 6 lekcja 12 (eventy)
+const button = document.querySelector('.modul-6-lekcja-12__button--js');
+console.log(button);
+
+const clickFunction = (e) => {
+    console.log(e)
+    console.log("klik klik ")
+    const header = document.querySelector('.modul-6-lekcja-12__header-h3--js')
+    console.log(header);
+    header.innerHTML = 'Nowa wartość nagłówka';
+}
+button.addEventListener('click', clickFunction);
