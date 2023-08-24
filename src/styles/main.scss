@@ -429,3 +429,46 @@ main {
         background-color: red;
     }
 }
+
+.modul-7-lekcja-10 {
+    .modul-7-lekcja-10__paragraph {
+        background-color: green;
+    }
+
+    .modul-7-lekcja-10__paragraph::before {
+        content: "Dodatkowa treść (::before) "
+    }
+
+    .modul-7-lekcja-10__paragraph::after {
+        content: "";
+        display: block;
+        background-color: red;
+        width: 100px;
+        height: 100px;
+        border-radius: 100px;
+    }
+
+    .modul-7-lekcja-10__paragraph:hover {
+        background-color: yellow;
+    }
+
+    .modul-7-lekcja-10__list {
+        background-color: green;
+    }
+
+    .modul-7-lekcja-10__list li:first-child {
+        background-color: yellow;
+    }
+
+    .modul-7-lekcja-10__list li:last-child {
+        background-color: white;
+    }
+
+    .modul-7-lekcja-10__list--special {
+        color: blue;
+    }
+    
+    li:not(.modul-7-lekcja-10__list--special) {
+        color: red;
+    }
+}
