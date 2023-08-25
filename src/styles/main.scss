@@ -14,6 +14,13 @@ h1 {
 h2 {
     color: #141007;
     background: red;
+    &::before {
+        content: "";
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        background-color: black;
+    }
 }
 section {
     background: #bebebe;
@@ -470,5 +477,35 @@ main {
     
     li:not(.modul-7-lekcja-10__list--special) {
         color: red;
+    }
+}
+
+// h2::before {
+//     content: "";
+//     display: inline-block;
+//     width: 15px;
+//     height: 15px;
+//     background-color: #C850C0;
+// }
+
+.modul-7-praca-domowa {
+    background-color: brown;
+    &__h2 {
+        background-color: yellow;
+        &--paragraph-1 {
+            background-color: wheat;
+        }
+        &--paragraph-2 {
+            background-color: grey;
+        }
+    }
+    &__h3 {
+        background-color: greenyellow;
+        &--paragraph-1 {
+            background-color: orange;
+        }
+        &--paragraph-2 {
+            background-color: violet;
+        }
     }
 }
