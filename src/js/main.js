@@ -1,3 +1,7 @@
+import tax, { calculate as superCalculate, myFAvouriteColour } from "./modul-8-lekcja-3";
+import * as importAll from "./modul-8-lekcja-3";
+
+
 // alert('WTF z main.js');
 // console.log(blad);
 console.log('Log z main.js');
@@ -88,3 +92,14 @@ console.log(button.classList.contains('testowa'))
 //     const navigation = document.querySelector('.modul-6-lekcja-13__navigation--js')
 //     navigation.classList.toggle('modul-6-lekcja-13__navigation--open')
 // })
+
+// Modul 8 lekcja 3
+const calculate = () => 'claculate';
+console.log("Calcuate: " + calculate());
+console.log("Calcuate: " + superCalculate(5));
+console.log("Ulubiony kolor: " + myFAvouriteColour);
+console.log("Wysokość podatku: " + tax);
+
+console.log("Calcuate (*): " + importAll.calculate(5));
+console.log("Ulubiony kolor (*): " + importAll.myFAvouriteColour);
+console.log("Wysokość podatku (*): " + importAll.tax);
