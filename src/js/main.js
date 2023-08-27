@@ -1,6 +1,6 @@
 import tax, { calculate as superCalculate, myFAvouriteColour } from "./modul-8-lekcja-3";
 import * as importAll from "./modul-8-lekcja-3";
-
+import differenceIndDays from 'date-fns/differenceInDays'
 
 // alert('WTF z main.js');
 // console.log(blad);
@@ -103,3 +103,10 @@ console.log("Wysokość podatku: " + tax);
 console.log("Calcuate (*): " + importAll.calculate(5));
 console.log("Ulubiony kolor (*): " + importAll.myFAvouriteColour);
 console.log("Wysokość podatku (*): " + importAll.tax);
+
+// Modul 8 lekcja 4
+const differenceIndDaysResult = differenceIndDays(
+    new Date(2022, 4, 23, 0, 0),
+    new Date(2023, 7, 26, 0 ,0 )
+)
+console.log('differenceIndDaysResult ' + differenceIndDaysResult)
