@@ -102,7 +102,7 @@ console.log("Wysokość podatku: " + tax);
 
 console.log("Calcuate (*): " + importAll.calculate(5));
 console.log("Ulubiony kolor (*): " + importAll.myFAvouriteColour);
-console.log("Wysokość podatku (*): " + importAll.tax);
+console.log("Wysokość podatku (*): " + tax);
 
 // Modul 8 lekcja 4
 const differenceIndDaysResult = differenceIndDays(
