@@ -1,5 +1,6 @@
 @import "components/modul-8-lekcja-2.scss";
 @import "../../node_modules/normalize.css/normalize.css";
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
 
 /* Modul 4 lekcja 8 - dodatkowe style do normalize.css */
 html { 
@@ -528,4 +529,9 @@ main {
         --kolorTla: green;
         --kolorTekstu: yellow;
     }
+}
+
+.modul-8-lekcja-8 {
+    background-color: yellowgreen;
+    font-family: 'Sedgwick Ave Display', cursive;;
 }
