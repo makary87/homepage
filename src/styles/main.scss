@@ -511,3 +511,21 @@ main {
         }
     }
 }
+
+// Moduł 8 - lekcja 7
+:root {
+    --kolorTla: hotpink;
+    --kolorTekstu: green
+}
+
+.modul-8-lekcja-7 {
+    background-color: var(--kolorTla);
+    color: var(--kolorTekstu);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --kolorTla: green;
+        --kolorTekstu: yellow;
+    }
+}

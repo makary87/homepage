@@ -110,3 +110,9 @@ const differenceIndDaysResult = differenceIndDays(
     new Date(2023, 7, 26, 0 ,0 )
 )
 console.log('differenceIndDaysResult ' + differenceIndDaysResult)
+
+// Modul 8 lekcja 7
+const button_modul_8_lekcja_7 = document.querySelector('.modul-8-lekcja-7__button--js');
+button_modul_8_lekcja_7.addEventListener('click', (e) => {
+    document.documentElement.style.setProperty('--kolorTla', 'black');
+})
