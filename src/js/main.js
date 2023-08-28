@@ -1,6 +1,7 @@
 import tax, { calculate as superCalculate, myFAvouriteColour } from "./modul-8-lekcja-3";
 import * as importAll from "./modul-8-lekcja-3";
-import differenceIndDays from 'date-fns/differenceInDays'
+import differenceIndDays from 'date-fns/differenceInDays';
+import dodawanie, {substractNumber as roznica} from './modul-8-praca-domowa';
 
 // alert('WTF z main.js');
 // console.log(blad);
@@ -116,3 +117,7 @@ const button_modul_8_lekcja_7 = document.querySelector('.modul-8-lekcja-7__butto
 button_modul_8_lekcja_7.addEventListener('click', (e) => {
     document.documentElement.style.setProperty('--kolorTla', 'black');
 })
+
+// Modul 8 praca domowa
+console.log("Wynik odejmowania: " + roznica(6,2));
+console.log("Wynik dodawania: " + dodawanie(6,2));
