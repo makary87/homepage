@@ -121,3 +121,40 @@ button_modul_8_lekcja_7.addEventListener('click', (e) => {
 // Modul 8 praca domowa
 console.log("Wynik odejmowania: " + roznica(6,2));
 console.log("Wynik dodawania: " + dodawanie(6,2));
+
+// Modul 9 lekcja 4
+for(let i = 0; i < 3; i++) { 
+    console.log('Numer licznika: ' + i);    
+}
+
+let number = 0;
+console.log("Postinkrementacja: " + number++); // 0
+console.log("Wynik postinkrementacji: " + number); // 1
+
+number = 0;
+console.log("Preinkrementacja: " + ++number); // 1
+console.log("Wynik preinkrementacji: " + number); // 1
+
+while(number < 10) {
+    console.log('while licznik: ' + number); 
+    number = number + 3;
+}
+
+do {
+    console.log('do while licznik: ' + number); 
+    number = number - 3;
+} while (number > 0)
+
+const przykladObiektu = {
+    property1: 'value1',
+    property2: 'value2',
+    property3: 'value3'
+} 
+for (property in przykladObiektu) {
+    console.log("for in - property value: " + property + " and value: " + przykladObiektu[property]);
+}
+
+const przykladowaTablica = ['element1', 'element2', 'element3']
+for (let element of przykladowaTablica) {
+    console.log("for of: " + element)
+}
