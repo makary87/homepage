@@ -158,3 +158,18 @@ const przykladowaTablica = ['element1', 'element2', 'element3']
 for (let element of przykladowaTablica) {
     console.log("for of: " + element)
 }
+
+// Modul 9 lekcja 6
+const modul9lekcja6Object = {
+    name: "Michal",
+    hello: () => { console.log("Hello") },
+    year: 1987,
+    hobby: ['a', 'b', 'c']
+}
+console.log(modul9lekcja6Object)
+
+const modul9lekcja6ObjectJSON = JSON.stringify(modul9lekcja6Object);
+console.log(modul9lekcja6ObjectJSON);
+
+const modul9lekcja6ObjectJS = JSON.parse(modul9lekcja6ObjectJSON);
+console.log(modul9lekcja6ObjectJS)
