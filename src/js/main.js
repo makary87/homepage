@@ -173,3 +173,16 @@ console.log(modul9lekcja6ObjectJSON);
 
 const modul9lekcja6ObjectJS = JSON.parse(modul9lekcja6ObjectJSON);
 console.log(modul9lekcja6ObjectJS)
+
+// Modul 9 lekcja 7
+document.cookie = 'ciastko = mniamnia'
+document.cookie = 'ciastko2 = mniamnia2' // nie spowoduje nadpisania, a dodanie na kolejnego wpisu do istniejący cookie
+
+const modul9lekcja7Object = {
+    name: "Michal",
+    year: 1987
+}
+localStorage.setItem('user', JSON.stringify(modul9lekcja7Object));
+console.log(localStorage.getItem('user'));
+console.log(JSON.parse(localStorage.getItem('user')));
+localStorage.removeItem('user');
