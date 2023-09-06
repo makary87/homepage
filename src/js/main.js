@@ -2,6 +2,8 @@ import tax, { calculate as superCalculate, myFAvouriteColour } from "./modul-8-l
 import * as importAll from "./modul-8-lekcja-3";
 import differenceIndDays from 'date-fns/differenceInDays';
 import dodawanie, {substractNumber as roznica} from './modul-8-praca-domowa';
+import {arraySum} from './modul-9-praca-domowa';
+
 
 // alert('WTF z main.js');
 // console.log(blad);
@@ -186,3 +188,7 @@ localStorage.setItem('user', JSON.stringify(modul9lekcja7Object));
 console.log(localStorage.getItem('user'));
 console.log(JSON.parse(localStorage.getItem('user')));
 localStorage.removeItem('user');
+
+// Modul 9 praca domowa
+const inputArray = [4, 6, 7];
+console.log('Suma: ' + arraySum(inputArray))
