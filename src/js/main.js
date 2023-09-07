@@ -192,3 +192,20 @@ localStorage.removeItem('user');
 // Modul 9 praca domowa
 const inputArray = [4, 6, 7];
 console.log('Suma: ' + arraySum(inputArray))
+
+// Modul 10 lekcja 2 
+const personModul10lekca2 = {
+    firstNameDestr: 'Michal',
+    yearDestr: 1987
+}
+const {firstNameDestr, yearDestr} = personModul10lekca2;
+console.log('Modul 10 lekcja 2: ' + firstNameDestr + ' ' + yearDestr)
+
+const fruits = ['apple', 'orange', 'bananna'];
+const vegatables = ['tomato', 'potato']
+
+const [firstFruit, , thirdFruit] = fruits
+console.log('Modul 10 lekcja 2: ' + firstFruit + ' ' + thirdFruit)
+
+const fruitsAndVegetables = [...fruits, ...vegatables]
+console.log('Modul 10 lekcja 2: ' + fruitsAndVegetables)
