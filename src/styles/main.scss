@@ -535,3 +535,16 @@ main {
     background-color: yellowgreen;
     font-family: 'Sedgwick Ave Display', cursive;;
 }
+
+.modul-10-lekcja-9__paragraph {
+    background-color: tomato;
+    transition: background-color 3s linear;
+    transform-origin: top left;
+    will-change: background-color;
+}
+
+.modul-10-lekcja-9__paragraph:hover {
+    background-color: green;
+    transform: rotate(15deg) translate(1rem, 2rem) scale(0.8);
+
+}
